@@ -6,8 +6,8 @@ import (
 	remapped "math"
 	_ "math/cmplx"
 
-	. "github.com/onsi/ginkgo/v2"
-	. "github.com/onsi/ginkgo/v2/integration/_fixtures/flags_fixture"
+	. "github.com/jghiloni/ginkgo/v2"
+	. "github.com/jghiloni/ginkgo/v2/integration/_fixtures/flags_fixture"
 	. "github.com/onsi/gomega"
 )
 

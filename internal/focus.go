@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2/types"
 )
 
 /*

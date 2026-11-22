@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/gkampitakis/go-snaps/snaps"
-	. "github.com/onsi/ginkgo/v2"
+	. "github.com/jghiloni/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/onsi/ginkgo/v2/reporters"
-	"github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2/reporters"
+	"github.com/jghiloni/ginkgo/v2/types"
 )
 
 var _ = Describe("TeamCityReport", func() {

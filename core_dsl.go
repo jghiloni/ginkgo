@@ -1,6 +1,6 @@
 /*
 Ginkgo is a testing framework for Go designed to help you write expressive tests.
-https://github.com/onsi/ginkgo
+https://github.com/jghiloni/ginkgo
 MIT-Licensed
 
 The godoc documentation outlines Ginkgo's API.  Since Ginkgo is a Domain-Specific Language it is important to
@@ -24,13 +24,13 @@ import (
 	"strings"
 
 	"github.com/go-logr/logr"
-	"github.com/onsi/ginkgo/v2/formatter"
-	"github.com/onsi/ginkgo/v2/internal"
-	"github.com/onsi/ginkgo/v2/internal/global"
-	"github.com/onsi/ginkgo/v2/internal/interrupt_handler"
-	"github.com/onsi/ginkgo/v2/internal/parallel_support"
-	"github.com/onsi/ginkgo/v2/reporters"
-	"github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2/formatter"
+	"github.com/jghiloni/ginkgo/v2/internal"
+	"github.com/jghiloni/ginkgo/v2/internal/global"
+	"github.com/jghiloni/ginkgo/v2/internal/interrupt_handler"
+	"github.com/jghiloni/ginkgo/v2/internal/parallel_support"
+	"github.com/jghiloni/ginkgo/v2/reporters"
+	"github.com/jghiloni/ginkgo/v2/types"
 )
 
 const GINKGO_VERSION = types.VERSION

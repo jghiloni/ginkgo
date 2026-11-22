@@ -3,15 +3,15 @@ package main
 import (
 	"fmt"
 	"os"
-	"github.com/onsi/ginkgo/v2/ginkgo/build"
-	"github.com/onsi/ginkgo/v2/ginkgo/command"
-	"github.com/onsi/ginkgo/v2/ginkgo/generators"
-	"github.com/onsi/ginkgo/v2/ginkgo/labels"
-	"github.com/onsi/ginkgo/v2/ginkgo/outline"
-	"github.com/onsi/ginkgo/v2/ginkgo/run"
-	"github.com/onsi/ginkgo/v2/ginkgo/unfocus"
-	"github.com/onsi/ginkgo/v2/ginkgo/watch"
-	"github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2/ginkgo/build"
+	"github.com/jghiloni/ginkgo/v2/ginkgo/command"
+	"github.com/jghiloni/ginkgo/v2/ginkgo/generators"
+	"github.com/jghiloni/ginkgo/v2/ginkgo/labels"
+	"github.com/jghiloni/ginkgo/v2/ginkgo/outline"
+	"github.com/jghiloni/ginkgo/v2/ginkgo/run"
+	"github.com/jghiloni/ginkgo/v2/ginkgo/unfocus"
+	"github.com/jghiloni/ginkgo/v2/ginkgo/watch"
+	"github.com/jghiloni/ginkgo/v2/types"
 )
 
 var program command.Program

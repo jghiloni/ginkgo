@@ -21,8 +21,8 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/onsi/ginkgo/v2/config"
-	"github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2/config"
+	"github.com/jghiloni/ginkgo/v2/types"
 )
 
 type JunitReportConfig struct {

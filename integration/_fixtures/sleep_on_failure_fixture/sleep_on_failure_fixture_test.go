@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	. "github.com/onsi/ginkgo/v2"
+	. "github.com/jghiloni/ginkgo/v2"
 )
 
 var _ = Describe("sleep on failure", func() {

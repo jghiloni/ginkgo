@@ -4,21 +4,21 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/onsi/ginkgo/v2/internal"
-	"github.com/onsi/ginkgo/v2/internal/global"
-	"github.com/onsi/ginkgo/v2/reporters"
-	"github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2/internal"
+	"github.com/jghiloni/ginkgo/v2/internal/global"
+	"github.com/jghiloni/ginkgo/v2/reporters"
+	"github.com/jghiloni/ginkgo/v2/types"
 )
 
 /*
 Report represents the report for a Suite.
-It is documented here: https://pkg.go.dev/github.com/onsi/ginkgo/v2/types#Report
+It is documented here: https://pkg.go.dev/github.com/jghiloni/ginkgo/v2/types#Report
 */
 type Report = types.Report
 
 /*
 Report represents the report for a Spec.
-It is documented here: https://pkg.go.dev/github.com/onsi/ginkgo/v2/types#SpecReport
+It is documented here: https://pkg.go.dev/github.com/jghiloni/ginkgo/v2/types#SpecReport
 */
 type SpecReport = types.SpecReport
 
@@ -29,7 +29,7 @@ to make extracting information about the spec easier.
 
 During construction of the test tree the result is empty.
 
-You can learn more about SpecReport here: https://pkg.go.dev/github.com/onsi/ginkgo/types#SpecReport
+You can learn more about SpecReport here: https://pkg.go.dev/github.com/jghiloni/ginkgo/types#SpecReport
 You can learn more about CurrentSpecReport() here: https://onsi.github.io/ginkgo/#getting-a-report-for-the-current-spec
 */
 func CurrentSpecReport() SpecReport {

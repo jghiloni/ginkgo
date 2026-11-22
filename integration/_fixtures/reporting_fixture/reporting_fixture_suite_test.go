@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	. "github.com/onsi/ginkgo/v2"
-	"github.com/onsi/ginkgo/v2/types"
+	. "github.com/jghiloni/ginkgo/v2"
+	"github.com/jghiloni/ginkgo/v2/types"
 	. "github.com/onsi/gomega"
 )
 

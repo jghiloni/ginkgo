@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/onsi/ginkgo/v2"
+	. "github.com/jghiloni/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
 	"github.com/onsi/gomega/gbytes"
 
-	"github.com/onsi/ginkgo/v2/internal"
-	"github.com/onsi/ginkgo/v2/internal/testingtproxy"
-	"github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2/internal"
+	"github.com/jghiloni/ginkgo/v2/internal/testingtproxy"
+	"github.com/jghiloni/ginkgo/v2/types"
 )
 
 type messagedCall struct {

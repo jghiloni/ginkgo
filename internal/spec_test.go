@@ -1,8 +1,8 @@
 package internal_test
 
 import (
-	. "github.com/onsi/ginkgo/v2"
-	"github.com/onsi/ginkgo/v2/internal"
+	. "github.com/jghiloni/ginkgo/v2"
+	"github.com/jghiloni/ginkgo/v2/internal"
 	. "github.com/onsi/gomega"
 )
 

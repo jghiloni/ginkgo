@@ -3,11 +3,11 @@ package internal_integration_test
 import (
 	"time"
 
-	. "github.com/onsi/ginkgo/v2"
+	. "github.com/jghiloni/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/onsi/ginkgo/v2/internal/interrupt_handler"
-	. "github.com/onsi/ginkgo/v2/internal/test_helpers"
+	"github.com/jghiloni/ginkgo/v2/internal/interrupt_handler"
+	. "github.com/jghiloni/ginkgo/v2/internal/test_helpers"
 )
 
 var _ = Describe("--sleep-on-failure", func() {

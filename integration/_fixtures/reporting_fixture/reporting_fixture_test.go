@@ -3,7 +3,7 @@ package reporting_fixture_test
 import (
 	"time"
 
-	. "github.com/onsi/ginkgo/v2"
+	. "github.com/jghiloni/ginkgo/v2"
 )
 
 var _ = Describe("reporting test", func() {

@@ -5,8 +5,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/onsi/ginkgo/v2/reporters"
-	"github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2/reporters"
+	"github.com/jghiloni/ginkgo/v2/types"
 )
 
 type Void struct{}

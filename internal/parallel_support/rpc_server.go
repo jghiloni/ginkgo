@@ -13,7 +13,7 @@ import (
 	"net/http"
 	"net/rpc"
 
-	"github.com/onsi/ginkgo/v2/reporters"
+	"github.com/jghiloni/ginkgo/v2/reporters"
 )
 
 /*

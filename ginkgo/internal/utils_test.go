@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	. "github.com/onsi/ginkgo/v2"
-	"github.com/onsi/ginkgo/v2/formatter"
-	"github.com/onsi/ginkgo/v2/ginkgo/internal"
+	. "github.com/jghiloni/ginkgo/v2"
+	"github.com/jghiloni/ginkgo/v2/formatter"
+	"github.com/jghiloni/ginkgo/v2/ginkgo/internal"
 	. "github.com/onsi/gomega"
 )
 

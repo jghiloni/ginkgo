@@ -3,10 +3,10 @@ package internal_test
 import (
 	"errors"
 
-	. "github.com/onsi/ginkgo/v2"
+	. "github.com/jghiloni/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/onsi/ginkgo/v2/internal"
+	"github.com/jghiloni/ginkgo/v2/internal"
 	"github.com/onsi/gomega/gbytes"
 )
 

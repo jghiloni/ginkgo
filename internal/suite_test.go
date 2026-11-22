@@ -3,12 +3,12 @@ package internal_test
 import (
 	"io"
 
-	. "github.com/onsi/ginkgo/v2"
-	"github.com/onsi/ginkgo/v2/internal"
-	"github.com/onsi/ginkgo/v2/internal/interrupt_handler"
-	"github.com/onsi/ginkgo/v2/internal/parallel_support"
-	. "github.com/onsi/ginkgo/v2/internal/test_helpers"
-	"github.com/onsi/ginkgo/v2/types"
+	. "github.com/jghiloni/ginkgo/v2"
+	"github.com/jghiloni/ginkgo/v2/internal"
+	"github.com/jghiloni/ginkgo/v2/internal/interrupt_handler"
+	"github.com/jghiloni/ginkgo/v2/internal/parallel_support"
+	. "github.com/jghiloni/ginkgo/v2/internal/test_helpers"
+	"github.com/jghiloni/ginkgo/v2/types"
 	. "github.com/onsi/gomega"
 )
 

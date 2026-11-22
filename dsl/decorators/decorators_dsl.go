@@ -1,7 +1,7 @@
 /*
 Ginkgo is usually dot-imported via:
 
-	import . "github.com/onsi/ginkgo/v2"
+	import . "github.com/jghiloni/ginkgo/v2"
 
 however some parts of the DSL may conflict with existing symbols in the user's code.
 
@@ -13,8 +13,8 @@ This "decorators" package pulls in the various decorators defined in the Ginkgo 
 package decorators
 
 import (
-	"github.com/onsi/ginkgo/v2"
-	"github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2"
+	"github.com/jghiloni/ginkgo/v2/types"
 )
 
 type Offset = ginkgo.Offset

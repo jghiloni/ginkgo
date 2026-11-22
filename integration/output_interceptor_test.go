@@ -4,7 +4,7 @@ import (
 	"os/exec"
 	"time"
 
-	. "github.com/onsi/ginkgo/v2"
+	. "github.com/jghiloni/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
@@ -50,7 +50,7 @@ var _ = Describe("OutputInterceptor", MarkSlow, func() {
 		})
 	})
 
-	Context("ensuring Ginkgo does not hang when a child process does not exit: https://github.com/onsi/ginkgo/issues/1191", func() {
+	Context("ensuring Ginkgo does not hang when a child process does not exit: https://github.com/jghiloni/ginkgo/issues/1191", func() {
 		BeforeEach(func() {
 			fm.MountFixture("interceptor_sleep")
 		})

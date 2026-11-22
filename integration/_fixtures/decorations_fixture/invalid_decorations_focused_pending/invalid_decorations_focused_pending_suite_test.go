@@ -3,7 +3,7 @@ package invalid_decorations_focused_pending_test
 import (
 	"testing"
 
-	. "github.com/onsi/ginkgo/v2"
+	. "github.com/jghiloni/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )
 

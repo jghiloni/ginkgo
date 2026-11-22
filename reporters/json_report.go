@@ -6,7 +6,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2/types"
 )
 
 // GenerateJSONReport produces a JSON-formatted report at the passed in destination

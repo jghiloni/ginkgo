@@ -89,9 +89,9 @@ func (d Dependencies) addDepIfNotPresent(dep string, depth int) {
 }
 
 func matchesGinkgoOrGomega(s string) bool {
-	return strings.Contains(s, "github.com/onsi/ginkgo") || strings.Contains(s, "github.com/onsi/gomega")
+	return strings.Contains(s, "github.com/jghiloni/ginkgo") || strings.Contains(s, "github.com/onsi/gomega")
 }
 
 func matchesGinkgoIntegration(s string) bool {
-	return strings.Contains(s, "github.com/onsi/ginkgo/integration") // allow us to integration test this thing
+	return strings.Contains(s, "github.com/jghiloni/ginkgo/integration") // allow us to integration test this thing
 }

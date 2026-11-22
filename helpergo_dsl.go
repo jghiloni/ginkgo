@@ -1,8 +1,8 @@
 package ginkgo
 
 import (
-	"github.com/onsi/ginkgo/v2/internal/global"
-	ginkgotypes "github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2/internal/global"
+	ginkgotypes "github.com/jghiloni/ginkgo/v2/types"
 )
 
 // GinkgoHelperGo synchronously calls the specified “helper” function in a new

@@ -6,11 +6,11 @@ import (
 	"os/exec"
 	"runtime"
 
-	. "github.com/onsi/ginkgo/v2"
+	. "github.com/jghiloni/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 
-	"github.com/onsi/ginkgo/v2/internal"
+	"github.com/jghiloni/ginkgo/v2/internal"
 )
 
 var _ = Describe("OutputInterceptor", Label("SLOW"), func() {
@@ -51,7 +51,7 @@ var _ = Describe("OutputInterceptor", Label("SLOW"), func() {
 		})
 
 		It("can bail out if stdout and stderr are tied up by an external process", func() {
-			// See GitHub issue #851: https://github.com/onsi/ginkgo/issues/851
+			// See GitHub issue #851: https://github.com/jghiloni/ginkgo/issues/851
 			interceptor.StartInterceptingOutput()
 			cmd := exec.Command("sleep", "60")
 			//by threading stdout and stderr through, the sleep process will hold them open and prevent the interceptor from stopping:
@@ -86,7 +86,7 @@ var _ = Describe("OutputInterceptor", Label("SLOW"), func() {
 		})
 
 		It("doesn't get stuck if it's paused and resumed before starting an external process that attaches to stdout/stderr", func() {
-			// See GitHub issue #851: https://github.com/onsi/ginkgo/issues/851
+			// See GitHub issue #851: https://github.com/jghiloni/ginkgo/issues/851
 			interceptor.StartInterceptingOutput()
 			interceptor.PauseIntercepting()
 			cmd := exec.Command("sleep", "60")

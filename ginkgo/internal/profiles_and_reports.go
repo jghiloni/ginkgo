@@ -9,8 +9,8 @@ import (
 	"strconv"
 
 	"github.com/google/pprof/profile"
-	"github.com/onsi/ginkgo/v2/reporters"
-	"github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2/reporters"
+	"github.com/jghiloni/ginkgo/v2/types"
 	"golang.org/x/tools/cover"
 )
 

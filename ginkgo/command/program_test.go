@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"strings"
 
-	. "github.com/onsi/ginkgo/v2"
-	"github.com/onsi/ginkgo/v2/formatter"
-	. "github.com/onsi/ginkgo/v2/internal/test_helpers"
-	"github.com/onsi/ginkgo/v2/types"
+	. "github.com/jghiloni/ginkgo/v2"
+	"github.com/jghiloni/ginkgo/v2/formatter"
+	. "github.com/jghiloni/ginkgo/v2/internal/test_helpers"
+	"github.com/jghiloni/ginkgo/v2/types"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 
-	"github.com/onsi/ginkgo/v2/ginkgo/command"
+	"github.com/jghiloni/ginkgo/v2/ginkgo/command"
 )
 
 var _ = Describe("Program", func() {

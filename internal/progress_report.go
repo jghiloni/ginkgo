@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2/types"
 )
 
 var _SOURCE_CACHE = map[string][]string{}

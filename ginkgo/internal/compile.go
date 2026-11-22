@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/onsi/ginkgo/v2/types"
+	"github.com/jghiloni/ginkgo/v2/types"
 )
 
 func CompileSuite(suite TestSuite, goFlagsConfig types.GoFlagsConfig, preserveSymbols bool) TestSuite {
