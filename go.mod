@@ -1,4 +1,4 @@
-module github.com/onsi/ginkgo/v2
+module github.com/jghiloni/ginkgo/v2
 
 go 1.25.0
 
